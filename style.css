@@ -1,0 +1,145 @@
+/*Página Principal*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: 'Sigmar';
+    src: url(Fonte/Sigmar.txt);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Anton';
+    src: url(Fonte/Anton-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    font-family: 'Arial';
+    background-color: rgb(255, 248, 216);
+    color: #2c0657;
+}
+.home{
+    display: flex;
+    height: 65px;
+    margin-left: 10px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    background-color: #2c0657;
+    height: 100px;
+}
+nav .logo{
+    font-size: 50px;
+    color: #ffffff;
+    font-family: 'Anton';
+}
+span{
+    height: 140px;
+    margin-left: 15px;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul a{
+    text-decoration: none;
+    font-size: 25px;
+    font-size: 'Anton';
+    padding: 10px;
+    transition: 1s;
+    border-radius: 10px;
+    color: white;
+    margin-right: 10px;
+    font-family: 'Anton';
+    background-color: #410981;
+}
+nav ul a:hover{
+    background-color: #7840b8;
+}
+.titulo{
+    text-align: center;
+    font-family: 'Anton';
+    font-size: 50px;
+}
+#imagem{
+    display: flex;
+    justify-content: center;
+}
+img{
+    border-radius: 20px;
+    width: 300px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.7);
+}
+.botoes{
+    display: flex;
+    justify-content: center;
+}
+.instagram{
+    height: 90px;
+    width: 180px;
+    background-color: #2c0657;
+    color: white;
+    font-family: 'Anton';
+    font-size: 25px;
+    border-radius: 10px;
+    border: none;
+    margin-right: 5px;
+}
+.alunos{
+    height: 90px;
+    width: 180px;
+    background-color: rgb(255, 248, 212);
+    color: #2c0657;
+    font-family: 'Anton';
+    font-size: 25px;
+    border-radius: 10px;
+    border: solid #2c0657;
+}
+.alunoonline{
+    height: 90px;
+    width: 180px;
+    background-color: #2c0657;
+    color: white;
+    font-family: 'Anton';
+    font-size: 25px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 5px;
+}
+.instagram a{
+    text-decoration: none;
+    color: white;
+}
+.alunos a{
+    text-decoration: none;
+    color: #2c0657;
+}
+.alunoonline a{
+    text-decoration: none;
+    color: white;
+}
+.instagram:hover{
+    background-color: #893de0;
+    cursor: pointer;
+}
+.alunos:hover{
+    background-color: #fff6d7;
+    cursor: pointer;
+}
+.alunoonline:hover{
+    background-color: #893de0;
+    cursor: pointer;
+}
+footer{
+    color: #fff2c8;
+    background-color: #2c0657;
+    text-align: center;
+}

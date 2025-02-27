@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: 'Sigmar';
+    src: url(Fonte/Sigmar.txt);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Anton';
+    src: url(Fonte/Anton-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Neue';
+    src: url(Fonte/BebasNeue-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    font-family: 'Neue';
+    background-color: rgb(253, 248, 225);
+    color: #2c0657;
+}
+
+.titulo{
+    text-align: center;
+    font-family: 'Anton';
+    font-size: 50px;
+}
+#imagem{
+    display: flex;
+    justify-content: center;
+}
+img{
+    border-radius: 15px;
+    height: 10px;
+}
+.perfil{
+    background-color: #2c0657;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+    border-radius: 15px;
+    width: 50%;
+    margin: 0 auto;
+}
+.info{
+    color: rgb(253, 248, 225);
+    margin-left: 20px;
+}
+footer{
+    color: #fff2c8;
+    background-color: #2c0657;
+    text-align: center;
+}

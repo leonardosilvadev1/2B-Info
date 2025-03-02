@@ -59,3 +59,60 @@ footer{
     background-color: #2c0657;
     text-align: center;
 }
+@media (max-width: 768px) {
+    .titulo {
+        font-size: 30px;
+    }
+
+    .perfil {
+        flex-direction: column;
+        width: 70%;
+        margin: 10px auto; 
+    }
+
+    .img img {
+        width: 70px; 
+        height: 70px; 
+    }
+
+    .info h1 {
+        font-size: 18px;
+        text-align: center;
+    }
+}
+@media (max-width: 1024px) {
+    .titulo {
+        font-size: 40px;
+    }
+
+    .perfil {
+        width: 90%; 
+    }
+
+    .img img {
+        width: 120px;
+        height: 120px; 
+    }
+
+    .info h1 {
+        font-size: 20px; 
+    }
+}
+@media (min-width: 1025px) {
+    .titulo {
+        font-size: 50px;
+    }
+
+    .perfil {
+        width: 50%;
+    }
+
+    .img img {
+        width: 130px;
+        height: 130px;
+    }
+
+    .info h1 {
+        font-size: 24px;
+    }
+}

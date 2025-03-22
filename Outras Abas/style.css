@@ -81,43 +81,43 @@ a{
 /* Responsividade */
 @media (max-width: 768px) {
     .titulo {
-        font-size: 30px; /* Reduz o tamanho do título em telas menores */
+        font-size: 30px; 
     }
 
     .perfil {
-        width: 90%; /* Aumenta a largura do perfil para ocupar mais espaço */
-        flex-direction: column; /* Altera o layout para coluna */
-        height: auto; /* Altura automática para se ajustar ao conteúdo */
+        width: 90%; 
+        flex-direction: column; 
+        height: auto; 
         padding: 20px;
     }
 
     .info {
-        margin-left: 0; /* Remove a margem esquerda */
-        text-align: center; /* Centraliza o texto */
-        margin-top: 10px; /* Adiciona espaço entre a imagem e o texto */
+        margin-left: 0; 
+        text-align: center; 
+        margin-top: 10px; 
     }
 
     img {
-        height: 100px; /* Reduz o tamanho da imagem */
-        width: 100px;
+        height: 500px; 
+        width: 500px;
     }
 }
 
 @media (max-width: 480px) {
     .titulo {
-        font-size: 24px; /* Título ainda menor para smartphones */
+        font-size: 24px; 
     }
 
     .perfil {
-        width: 95%; /* Aumenta a largura do perfil */
+        width: 95%;
     }
 
     img {
-        height: 15px; /* Reduz ainda mais o tamanho da imagem */
+        height: 15px;
         width: 15px;
     }
 
     .info h1 {
-        font-size: 18px; /* Reduz o tamanho do texto */
+        font-size: 18px;
     }
 }

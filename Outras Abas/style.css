@@ -45,7 +45,7 @@ body {
 }
 
 img {
-    border-radius: 15px;
+    border-radius: 10px;
     height: 130px;
     width: 130px;
 }
@@ -113,8 +113,8 @@ a{
     }
 
     img {
-        height: 80px; /* Reduz ainda mais o tamanho da imagem */
-        width: 80px;
+        height: 15px; /* Reduz ainda mais o tamanho da imagem */
+        width: 15px;
     }
 
     .info h1 {

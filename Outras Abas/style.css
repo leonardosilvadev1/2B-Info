@@ -32,10 +32,61 @@ body {
     color: #2c0657;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2c0657;
+    padding: 0 20px;
+    height: 100px;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-size: 50px;
+    color: #ffffff;
+    font-family: 'Anton';
+    margin-left: 15px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Anton';
+    padding: 10px;
+    transition: 0.3s ease;
+    border-radius: 10px;
+    color: white;
+    margin-right: 10px;
+    background-color: #410981;
+}
+
+.nav-links a:hover {
+    background-color: #7840b8;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 30px;
+}
+
 .titulo {
     text-align: center;
-    font-family: 'Anton';
-    font-size: 50px;
+    font-family: 'Neue';
+    font-size: 70px;
     padding: 20px 0;
 }
 
@@ -88,9 +139,343 @@ a{
 }
 
 /* Responsividade */
+@media (max-width: 890px) {
+    .hamburger {
+        display: block;
+        height: 90%;
+        font-size: 45px;
+    }
+
+    .logo{
+        font-size: 40px;
+    }
+
+    .nav-links {
+        position: fixed;
+        top: 100px;
+        left: -100%;
+        width: 100%;
+        height: calc(100vh - 100px);
+        background-color: #2c0657;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        transition: 0.5s;
+        padding-top: 25px;
+        font-size: 50px;
+    }
+
+    .nav-links.active {
+        left: 0;
+    }
+
+    .nav-links li {
+        margin: 15px 0;
+        height: 140px;
+    }
+
+    .nav-links a {
+        margin: 0;
+        text-decoration: none;
+        padding: 40px;
+        font-size: 45px;
+    }
+
+    .titulo {
+        font-size: 25px;
+    }
+
+    .botoes {
+        flex-direction: column;
+        align-items: center;
+        text-decoration: none;
+    }
+
+    .instagram, .alunos, .alunoonline {
+        width: 100%;
+        max-width: 200px;
+    }
+}
+
+@media (max-width: 850px) {
+    .hamburger {
+        display: block;
+        height: 90%;
+        font-size: 40px;
+    }
+
+    .logo{
+        font-size: 35px;
+    }
+
+    .nav-links {
+        position: fixed;
+        top: 100px;
+        left: -100%;
+        width: 100%;
+        height: calc(100vh - 100px);
+        background-color: #2c0657;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        transition: 0.5s;
+        padding-top: 20px;
+        font-size: 45px;
+    }
+
+    .nav-links.active {
+        left: 0;
+    }
+
+    .nav-links li {
+        margin: 15px 0;
+        height: 130px;
+    }
+
+    .nav-links a {
+        margin: 0;
+        text-decoration: none;
+        padding: 35px;
+        font-size: 40px;
+    }
+
+    .titulo {
+        font-size: 35px;
+    }
+
+    .botoes {
+        flex-direction: column;
+        align-items: center;
+        text-decoration: none;
+    }
+
+    .instagram, .alunos, .alunoonline {
+        width: 100%;
+        max-width: 200px;
+    }
+}
 @media (max-width: 768px) {
+    .hamburger {
+        display: block;
+        height: 90%;
+        font-size: 45px;
+    }
+
+    .logo{
+        font-size: 40px;
+    }
+
+    .nav-links {
+        position: fixed;
+        top: 100px;
+        left: -100%;
+        width: 100%;
+        height: calc(100vh - 100px);
+        background-color: #2c0657;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        transition: 0.5s;
+        padding-top: 25px;
+        font-size: 50px;
+    }
+
+    .nav-links.active {
+        left: 0;
+    }
+
+    .nav-links li {
+        margin: 15px 0;
+        height: 140px;
+    }
+
+    .nav-links a {
+        margin: 0;
+        text-decoration: none;
+        padding: 40px;
+        font-size: 45px;
+    }
+
+    .titulo {
+        font-size: 40px;
+    }
+
+    .botoes {
+        flex-direction: column;
+        align-items: center;
+        text-decoration: none;
+    }
+
+    .instagram, .alunos, .alunoonline {
+        width: 100%;
+        max-width: 200px;
+    }
+}
+
+@media (max-width: 850px) {
+    .hamburger {
+        display: block;
+        height: 90%;
+        font-size: 40px;
+    }
+
+    .logo{
+        font-size: 35px;
+    }
+
+    .nav-links {
+        position: fixed;
+        top: 100px;
+        left: -100%;
+        width: 100%;
+        height: calc(100vh - 100px);
+        background-color: #2c0657;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        transition: 0.5s;
+        padding-top: 20px;
+        font-size: 45px;
+    }
+
+    .nav-links.active {
+        left: 0;
+    }
+
+    .nav-links li {
+        margin: 15px 0;
+        height: 130px;
+    }
+
+    .nav-links a {
+        margin: 0;
+        text-decoration: none;
+        padding: 35px;
+        font-size: 40px;
+    }
+
+    .titulo {
+        font-size: 35px;
+    }
+
+    .botoes {
+        flex-direction: column;
+        align-items: center;
+        text-decoration: none;
+    }
+
+    .instagram, .alunos, .alunoonline {
+        width: 100%;
+        max-width: 200px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hamburger {
+        display: block;
+        height: 90%;
+        font-size: 35px;
+    }
+
+    .logo{
+        font-size: 30px;
+    }
+
+    .nav-links {
+        position: fixed;
+        top: 100px;
+        left: -100%;
+        width: 100%;
+        height: calc(100vh - 100px);
+        background-color: #2c0657;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        transition: 0.5s;
+        padding-top: 20px;
+        font-size: 40px;
+    }
+
+    .nav-links.active {
+        left: 0;
+    }
+
+    .nav-links li {
+        margin: 15px 0;
+        height: 110px;
+    }
+
+    .nav-links a {
+        margin: 0;
+        text-decoration: none;
+        padding: 30px;
+        font-size: 35px;
+    }
+
+    .titulo {
+        font-size: 45px;
+    }
+
+    .logo{
+        font-size: 30px;
+    }
+
+    .botoes {
+        flex-direction: column;
+        align-items: center;
+        text-decoration: none;
+    }
+
+    .instagram, .alunos, .alunoonline {
+        width: 100%;
+        max-width: 200px;
+    }
+}
+@media (max-width: 480px) {
+    .hamburger {
+        display: block;
+    }
+
+    .logo{
+        font-size: 30px;
+    }
+
+    .nav-links {
+        position: fixed;
+        top: 100px;
+        left: -100%;
+        width: 100%;
+        height: calc(100vh - 100px);
+        background-color: #2c0657;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        transition: 0.5s;
+        padding-top: 20px;
+        font-size: 40px;
+    }
+
+    .nav-links.active {
+        left: 0;
+    }
+
+    .nav-links li {
+        margin: 12px 0;
+        height: 80px;
+    }
+
+    .nav-links a {
+        margin: 0;
+        text-decoration: none;
+        padding: 25px;
+        font-size: 30px;
+    }
     .titulo {
         font-size: 30px; 
+    }
+
+    .logo{
+        font-size: 27px;
     }
 
     .perfil {
@@ -109,24 +494,5 @@ a{
     img {
         height: 500px; 
         width: 500px;
-    }
-}
-
-@media (max-width: 480px) {
-    .titulo {
-        font-size: 24px; 
-    }
-
-    .perfil {
-        width: 95%;
-    }
-
-    img {
-        height: 15px;
-        width: 15px;
-    }
-
-    .info h1 {
-        font-size: 18px;
     }
 }

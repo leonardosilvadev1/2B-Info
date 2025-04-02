@@ -1,9 +1,11 @@
+/*Página Principal*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/*Adicionar Fontes Externas*/
 @font-face {
     font-family: 'Sigmar';
     src: url(Fonte/Sigmar.txt);
@@ -18,15 +20,6 @@ body {
     font-family: 'Arial';
     background-color: rgb(255, 248, 216);
     color: #2c0657;
-}
-
-body.dark-theme {
-    background-color: #121212;
-    color: #ffffff;
-}
-
-.tema {
-    background-color: #410981;
 }
 
 button {
@@ -66,7 +59,7 @@ nav {
     font-size: 25px;
     font-family: 'Anton';
     padding: 10px;
-    transition: 0.3s;
+    transition: 0.3s ease;
     border-radius: 10px;
     color: white;
     margin-right: 10px;
@@ -155,6 +148,7 @@ footer {
     padding: 10px;
 }
 
+/*Responsividade do Site*/
 @media (max-width: 890px) {
     .hamburger {
         display: block;

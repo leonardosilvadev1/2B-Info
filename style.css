@@ -32,7 +32,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #2c0657;
+    background-color: rgb(28, 0, 85);
     padding: 0 20px;
     height: 100px;
 }
@@ -63,11 +63,11 @@ nav {
     border-radius: 10px;
     color: white;
     margin-right: 10px;
-    background-color: #410981;
+    background-color: #380177;
 }
 
 .nav-links a:hover {
-    background-color: #7840b8;
+    background-color: #5d16ad;
 }
 
 .hamburger {
@@ -124,26 +124,26 @@ a{
     text-decoration: none;
 }
 .instagram, .alunoonline {
-    background-color: #2c0657;
+    background-color: #240349;
     color: white;
 }
 
 .alunos {
-    background-color: #2c0657;
+    background-color: #240349;
     color: white
 }
 
 .instagram:hover, .alunoonline:hover {
-    background-color: #9232ff;
+    background-color: #4a118b;
 }
 
 .alunos:hover {
-    background-color: #9232ff;
+    background-color: #4a118b;
 }
 
 footer {
     color: #fff2c8;
-    background-color: #2c0657;
+    background-color: rgb(28, 0, 85);
     text-align: center;
     padding: 10px;
     margin-top: 6.3%;

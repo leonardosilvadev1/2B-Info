@@ -142,7 +142,7 @@ a{
     background-color: #2c0657;
     justify-content: center;
     align-items: center;
-    height: 430px;
+    height: 470px;
     border-radius: 15px;
     width: 50%;
     margin: 10px auto;
@@ -218,7 +218,7 @@ a{
     .premiacoes {
         width: 95%; 
         flex-direction: column; 
-        height: 837px; 
+        height: 857px; 
         padding: 25px;
     }
 
@@ -287,7 +287,7 @@ a{
     .premiacoes {
         width: 95%; 
         flex-direction: column; 
-        height: 737px; 
+        height: 757px; 
         padding: 25px;
     }
 
@@ -360,7 +360,7 @@ a{
     .premiacoes {
         width: 95%; 
         flex-direction: column; 
-        height: 637px; 
+        height: 657px; 
         padding: 25px;
     }
 
@@ -436,7 +436,7 @@ a{
     .premiacoes {
         width: 95%; 
         flex-direction: column; 
-        height: 537px; 
+        height: 557px; 
         padding: 25px;
     }
 

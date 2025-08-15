@@ -18,8 +18,8 @@
 
 body {
     font-family: 'Arial';
-    background-color: rgb(251, 239, 255);
-    color: #761ae0;
+    background-color: rgb(255, 248, 216);
+    color: #2c0657;
 }
 
 button {
@@ -32,7 +32,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #7422d1;
+    background-color: rgb(28, 0, 85);
     padding: 0 20px;
     height: 100px;
 }
@@ -63,11 +63,11 @@ nav {
     border-radius: 10px;
     color: white;
     margin-right: 10px;
-    background-color: #8924fd;
+    background-color: #380177;
 }
 
 .nav-links a:hover {
-    background-color: #b374fc;
+    background-color: #5d16ad;
 }
 
 .hamburger {
@@ -112,7 +112,7 @@ a{
     color: white;
 }
 
-.instagram, .alunos, .alunoonline, .biblioteca, .calendario {
+.instagram, .alunos, .alunoonline, .calendario {
     height: 90px;
     width: 180px;
     font-family: 'Anton';
@@ -123,27 +123,31 @@ a{
     transition: 0.3s;
     text-decoration: none;
 }
-.instagram, .alunoonline {
-    background-color: #7422d1;
+.instagram, .alunoonline, .calendario {
+    background-color: #240349;
     color: white;
 }
 
-.alunos, .biblioteca, .calendario {
-    background-color: #7422d1;
+.alunos {
+    background-color: #240349;
     color: white
 }
 
 .instagram:hover, .alunoonline:hover {
-    background-color: #b374fc;
+    background-color: #4a118b;
 }
 
-.alunos:hover, .biblioteca:hover, .calendario:hover {
-    background-color: #b374fc;
+.alunos:hover {
+    background-color: #4a118b;
+}
+
+.calendario:hover {
+    background-color: #4a118b;
 }
 
 footer {
     color: #fff2c8;
-    background-color: #7422d1;
+    background-color: rgb(28, 0, 85);
     text-align: center;
     padding: 10px;
     margin-top: 6.3%;
@@ -167,7 +171,7 @@ footer {
         left: -100%;
         width: 100%;
         height: calc(100vh - 100px);
-        background-color: #7422d1;
+        background-color: #2c0657;
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
@@ -202,9 +206,9 @@ footer {
         text-decoration: none;
     }
 
-    .instagram, .alunos, .alunoonline, .biblioteca, .calendario {
-        width: 400px;
-        max-width: 400px;
+    .instagram, .alunos, .alunoonline, .calendario {
+        width: 100%;
+        max-width: 200px;
     }
 }
 
@@ -225,7 +229,7 @@ footer {
         left: -100%;
         width: 100%;
         height: calc(100vh - 100px);
-        background-color: #7422d1;
+        background-color: #2c0657;
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
@@ -260,9 +264,9 @@ footer {
         text-decoration: none;
     }
 
-    .instagram, .alunos, .alunoonline, .biblioteca, .calendario {
-        width: 350px;
-        max-width: 350px;
+    .instagram, .alunos, .alunoonline, .calendario {
+        width: 100%;
+        max-width: 200px;
     }
 }
 
@@ -283,7 +287,7 @@ footer {
         left: -100%;
         width: 100%;
         height: calc(100vh - 100px);
-        background-color: #7422d1;
+        background-color: #2c0657;
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
@@ -318,9 +322,9 @@ footer {
         text-decoration: none;
     }
 
-    .instagram, .alunos, .alunoonline, .biblioteca, .calendario {
-        width: 300px;
-        max-width: 300px;
+    .instagram, .alunos, .alunoonline, .calendario {
+        width: 100%;
+        max-width: 200px;
     }
 }
 @media (max-width: 480px) {
@@ -338,7 +342,7 @@ footer {
         left: -100%;
         width: 100%;
         height: calc(100vh - 100px);
-        background-color: #7422d1;
+        background-color: #2c0657;
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
@@ -373,8 +377,8 @@ footer {
         text-decoration: none;
     }
 
-    .instagram, .alunos, .alunoonline, .biblioteca, .calendario {
-        width: 250px;
-        max-width: 250px;
+    .instagram, .alunos, .alunoonline, .calendario {
+        width: 100%;
+        max-width: 180px;
     }
 }

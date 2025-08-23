@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caixa de Sugestões</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="Imagens/WhatsApp Image 2025-02-22 at 11.36.09.jpeg">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function(){
+        emailjs.init({
+            publicKey: "kELMbcCUNt6RMVoJA",
+        });
+    })();
+</script>
+</head>
+<body>
+    <div class="main">
+        <div class="texto">
+            <h2>
+                Bem vindo! Aqui você pode descrever ou opinar sobre algo que você não achou positivo 
+                (Lógico que de forma assertiva e COM argumentos e propostas de soluções), assim trabalharemos com base nisso. 
+                Quiser dar um feedback positivo também, pode mandar!
+            </h2>
+        </div>
+        <div class="form">
+            <form method="post" action="post" id="form_sugestao">
+                <label for="assunto">Digite sua sugestão</label>
+                <textarea type="text" name="mensagem" id="mensagem" rows="5"></textarea>
+                <br>
+                <button type="submit" id="btn_enviar">Enviar</button>
+            </form>
+        </div>
+    </div>
+    <footer>
+        Versão Beta 2.0
+        <br><br>
+        © 2° Ano "B" Informática 2025. Todos os direitos reservados.
+        <br><br>
+        Versão Inicial feita por Leonardo.
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
